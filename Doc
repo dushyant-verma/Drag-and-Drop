@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Drag and Drop Elements</h1>
+
+    <div id="drag-container">
+        <div class="draggable" draggable="true">Drag me - Item 1</div>
+        <div class="draggable" draggable="true">Drag me - Item 2</div>
+        <div class="draggable" draggable="true">Drag me - Item 3</div>
+    </div>
+
+    <div id="drop-zone">
+        <h2>Drop Zone</h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
